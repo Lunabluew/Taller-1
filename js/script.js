@@ -67,7 +67,6 @@ else if(usuario!="luna" && passwor=="lll"){
 else if(usuario!="lun" && passwor!="llp"){
     console.log=window.alert("CRdenciales incorrectas");
 }
-*/
 
 let num1=parseInt(prompt("Ingrese el Primer numero")); 
 let num2=parseInt(prompt("Ingrese el Segundo numero")); 
@@ -82,4 +81,15 @@ let num2=parseInt(prompt("Ingrese el Segundo numero"));
     break;
     case `potenciar`: console.log(`El resultado de la potenciacion es ${Math.sqrt(num1)}`);
     break;
+}
+
+ for (i=0;i<=5;i++){
+    console.log("Hola soy Luna");
+ }
+*/
+
+let repetir=1;
+while(repetir=1){
+    console.log("Hola");
+repetir=prompt("Para conyinuar digita 1, 2 para salir");
 }
