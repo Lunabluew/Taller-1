@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+*{
+    margin: 8;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://reygif.com/media/1/separador-pastelitos-988.gif);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Itim', cursive;
+    color: #ffff;
+}
+
+/*estilo formularoi*/
+.frm-container{
+    background-color: rgba(0, 0, 0,0.7);
+    max-width: 40rem;
+    width: 100%;
+    color: #ffff;
+    padding: 2rem;
+    margin: 50px auto;
+}
+.frm-input{
+    width: 100%;
+    min-height: 2.5rem;
+    padding-left: 0.1rem;
+    box-shadow: 4px;
+}
+
+.frm-input:focus{
+    outline: none;
+    border-color: rgb(37, 3, 65);
+    border-width: 3px;
+    border-style: solid;
+
+}
+
+.frm-checkbox{ 
+    margin: 1rem;
+
+}
+
+.btn-enviar{
+    background: linear-gradient(rgb(207, 130, 203), rgb(179, 132, 218));
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-enviar:hover{
+    background: linear-gradient(blue, aqua);
+}
+
+.msn-error{
+    font-size: 11px;
+    color: red;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form-group{
+    margin: 0.5rem, 0rem;
+}
+
+label{
+    font-weight: 500;
+}
+
+.from-group-input{
+    position: relative;
+}
+
+.frm-icono{
+    position: absolute;
+    right: 1rem;
+    bottom: 2rem;
+    color: blueviolet;
+    z-index: 100;
+}
+
+.success .frm-icono{
+color: green;
+}
+
+.error .frm-icono{
+    color: red;
+}
+
+.msn-error-visible{
+    visibility: visible;
+    opacity: 1;
+}
